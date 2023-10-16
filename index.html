@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./css/style.css">
+
+   <title>Todo List</title>
+</head>
+<body>
+   <div class="container  border border-1 border-success pl-5 pr-5 pt-5 rounded ">
+      <h1 class="font-weight-bold text-center text-success">My Todo App in JavaScript</h1>
+      <div class="container border border-1 border-success p-5 mt-5 rounded">
+         <form>
+            <div class="input-group mb-3">
+               <input type="text" class="form-control" placeholder="Add Tasks" id="userInput" autocomplete="off">
+               <div class="input-group-append">
+                  <button class="btn btn-outline-success" type="button" id="addBtn">Add</button>
+               </div>
+            </div>
+            <div class="d-flex justify-content-center">
+               <button type="button" class="btn btn-outline-danger flex" id="clr">Clear All</button>
+            </div>
+         </form>
+      </div>
+      <div class="container" id="tasks">
+         
+      </div>
+      <p class=" text-right text-success">Developer  <span class="text-danger font-weight-bold">::</span>  AbdulRehman</p>
+   </div>
+   <script src="main.js"></script>  
+</body>
+</html>
